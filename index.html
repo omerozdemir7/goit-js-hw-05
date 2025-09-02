@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÖDEV №5</title>
+</head>
+<style>
+ body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* yatay ortala */
+    align-items: center;     /* dikey ortala */
+    background: #ffffff;        /* koyu arka plan, renkler daha belirgin */
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: #ff3c3c;
+    text-align: center;
+    animation: pulseColor 7s infinite;
+  }
+
+  /* Animasyon: büyü-küçül + renk değişimi */
+  @keyframes pulseColor {
+    0% {
+      transform: scale(1);
+      color: #ff3c3c;
+    }
+    25% {
+      transform: scale(1.1);
+      color: #3cff3c;
+    }
+    50% {
+      transform: scale(0.9);
+      color: #3c3cff;
+    }
+    75% {
+      transform: scale(1.1);
+      color: #ff3cff;
+    }
+    100% {
+      transform: scale(1);
+      color: #ff3c3c;
+    }
+  }
+</style>
+<body>
+
+    <h1>ÖDEV №5</h1>
+    <script src="./js/task-1.js"></script>
+    <script src="./js/task-2.js"></script>
+    <script src="./js/task-3.js"></script>
+</body>
+</html>
